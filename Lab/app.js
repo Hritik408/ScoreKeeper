@@ -10,6 +10,9 @@ tweetForm.addEventListener('submit',(e)=>{
     addTweet(usernameInput.value, tweetInput.value);
     usernameInput.value = '';
     tweetInput.value = '';
+
+
+    
    
 })
  const addTweet = (username,tweet)=>{
